@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Spinner
+        android:id="@+id/DaysSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:entries="@array/numOfDays"
+        android:layout_below="@+id/VehicleSpinner"
+        android:layout_alignRight="@+id/VehicleSpinner"
+        android:layout_alignEnd="@+id/VehicleSpinner"
+        android:layout_marginTop="21dp" />
+
+    <Spinner
+        android:id="@+id/VehicleSpinner"
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="41dp"
+        android:entries="@array/Vehicle"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <CheckBox
+        android:id="@+id/InsuredCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/InsuredDriverRB"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/PrepayCheckBox"
+        android:layout_centerHorizontal="true" />
+
+    <CheckBox
+        android:id="@+id/PrepayCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/InsuredCheckBox"
+        android:layout_alignStart="@+id/InsuredCheckBox"
+        android:layout_below="@+id/VehicleSpinner"
+        android:layout_marginTop="130dp"
+        android:text="@string/PrepayForGasRB"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/CostButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Totalcost"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/InsuredCheckBox"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lableDays"
+        android:textColor="@android:color/black"
+        android:layout_alignBaseline="@+id/DaysSpinner"
+        android:layout_alignBottom="@+id/DaysSpinner"
+        android:layout_alignRight="@+id/CostButton"
+        android:layout_alignEnd="@+id/CostButton"
+        android:layout_marginRight="28dp"
+        android:layout_marginEnd="28dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/DaysSpinner"
+        android:layout_alignStart="@+id/DaysSpinner" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lableNumD"
+        android:textColor="@android:color/black"
+        android:layout_alignBottom="@+id/editText"
+        android:layout_toLeftOf="@+id/editText"
+        android:layout_toStartOf="@+id/editText" />
+
+</RelativeLayout>

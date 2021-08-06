@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">RentalCar</string>
+    <string name="Totalcost">Cost</string>
+    <string name="MultipleDriverRB">Multiple Drivers</string>
+    <string name="InsuredDriverRB">All Drivers Insured</string>
+    <string name="PrepayForGasRB">Prepaying for Gas</string>
+    <string name="lableDays"> Select number of days:</string>
+    <string name="lableNumD">Enter number of drivers</string>
+
+    <string name="output">bob </string>
+
+    <string-array name="numOfDays">
+     <item>1</item>
+     <item>2</item>
+     <item>3</item>
+     <item>4</item>
+     <item>5</item>
+     <item>6</item>
+     <item>7</item>
+    </string-array>
+
+    <string-array name="Vehicle">
+     <item>Jeep Wrangler</item>
+     <item>Jeep Grand Cherokee</item>
+     <item>Land Rover</item>
+    </string-array>
+
+
+</resources>
