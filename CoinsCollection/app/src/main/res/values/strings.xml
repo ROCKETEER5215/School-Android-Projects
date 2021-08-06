@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Coins Collection</string>
+    <string name="Title">Coins Collection</string>
+    <string name="getCustomerNameTV">Enter your name</string>
+    <string name="getNumOfCoinsTV">Enter the number of each Coin</string>
+    <string name="QuarterTV">Quarters</string>
+    <string name="DimeTV">Dimes</string>
+    <string name="NickelTV">Nickels</string>
+    <string name="PennieTV">Pennies</string>
+    <string name="TotalBTN">Compute Value</string>
+
+    <string name="Output"> </string>
+
+
+</resources>
