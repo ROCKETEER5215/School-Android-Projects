@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FlagsOfStates</string>
+    <string name="placeholder">Button</string>
+    <string name="textPlaceholder">What State Flag is this?</string>
+</resources>
