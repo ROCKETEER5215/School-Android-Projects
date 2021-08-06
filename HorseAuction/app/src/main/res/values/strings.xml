@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Horse Auction</string>
+    <string name="mainTitle">Horse Auction</string>
+    <string name="picdAppy">Abby</string>
+    <string name="picdRascal">Rascal</string>
+    <string name="Abbybtn">Abby</string>
+    <string name="Rascalbtn">Rascal</string>
+    <string name="Bothbtn">Both</string>
+</resources>

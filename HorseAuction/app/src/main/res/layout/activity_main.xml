@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/horsebarn"
+    android:duplicateParentState="false"
+    tools:context="justinwallace.horseauction.MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/mainTitle"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewAbby"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="false"
+        android:contentDescription="@string/picdAppy"
+        android:cropToPadding="false"
+        android:visibility="visible"
+        app:srcCompat="@drawable/abby"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp" />
+
+    <Button
+        android:id="@+id/buttonAbby"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Abbybtn"
+        android:layout_alignBaseline="@+id/buttonBoth"
+        android:layout_alignBottom="@+id/buttonBoth"
+        android:layout_toLeftOf="@+id/buttonBoth"
+        android:layout_toStartOf="@+id/buttonBoth"
+        android:layout_marginRight="26dp"
+        android:layout_marginEnd="26dp"
+        tools:ignore="RelativeOverlap" />
+
+    <Button
+        android:id="@+id/buttonBoth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17dp"
+        android:text="@string/Bothbtn" />
+
+    <Button
+        android:id="@+id/buttonRascal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonBoth"
+        android:layout_alignBottom="@+id/buttonBoth"
+        android:layout_marginLeft="27dp"
+        android:layout_marginStart="27dp"
+        android:layout_toEndOf="@+id/buttonBoth"
+        android:layout_toRightOf="@+id/buttonBoth"
+        android:text="@string/Rascalbtn" />
+
+    <ImageView
+        android:id="@+id/imageViewRascal"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/picdRascal"
+        android:visibility="visible"
+        app:srcCompat="@drawable/rascal"
+        android:layout_alignBottom="@+id/buttonAbby"
+        android:layout_alignLeft="@+id/imageViewAbby"
+        android:layout_alignStart="@+id/imageViewAbby"
+        android:layout_marginBottom="33dp" />
+
+</RelativeLayout>
