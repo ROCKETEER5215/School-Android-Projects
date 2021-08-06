@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TaxCalculator</string>
+
+    <string name="TaxOutput"> bob </string>
+
+    <string name="TaxableIncomeTE">Enter Taxable Income</string>
+    <string name="TaxDue">Tax Due</string>
+
+    <string name="FilingStatusRG">Select Filing Status</string>
+    <string name="SingleRB">Single</string>
+    <string name="MarriedFilingJointlyRB">Married Filing Jointly</string>
+    <string name="MarriedFilingSeparatelyRB">Married Filing Separately</string>
+    <string name="HeadOfHouseholdRB">Head Of Household</string>
+
+</resources>
