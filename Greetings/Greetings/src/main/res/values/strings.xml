@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Greetings</string>
+
+    <string name="greet_btn">Greet</string>
+
+    <string name="hello">Hello</string>
+    <string name="goodbye">Goodbye</string>
+
+    <string name="exclaim_img">Greet image</string>
+</resources>
